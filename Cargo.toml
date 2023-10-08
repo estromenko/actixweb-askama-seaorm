@@ -1,0 +1,13 @@
+[package]
+name = "actixweb-askama-seaorm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.4.0"
+askama = "0.12.1"
+askama_actix = "0.14.0"
+dotenvy = "0.15.7"
+env_logger = "0.10.0"
+log = "0.4.20"
+sea-orm = { version = "0.12.3", features = ["sqlx-postgres", "runtime-tokio-rustls", "macros"] }
